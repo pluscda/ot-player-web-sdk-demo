@@ -27,7 +27,6 @@
     },
     "extends": [
       "plugin:vue/essential"
-      
     ],
     "rules": {},
     "parserOptions": {
