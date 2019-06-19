@@ -19,9 +19,11 @@ export default {
 
   methods: {
     cbAdLoaded(id) { // id === player_aotter1 or player_aotter2
+          console.log('loaded ok aotter id : ' + id);
          //document.querySelector("#" + id).style.transform="scale(1)";
     },
     cbAdFailed(id) {
+         console.log('loaded fail aotter id : ' + id);
          // document.querySelector("#" + id).style.display = "none";
     },
     cbAdImpression(id){
