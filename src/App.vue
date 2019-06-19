@@ -18,14 +18,14 @@ export default {
   name: 'app',
 
   methods: {
-    cbAdLoaded() {
-      
+    cbAdLoaded(id) { // id === player_aotter1 or player_aotter2
+         //document.querySelector("#" + id).style.transform="scale(1)";
     },
-    cbAdFailed() {
-
+    cbAdFailed(id) {
+         // document.querySelector("#" + id).style.display = "none";
     },
-    cbAdImpression(){
-
+    cbAdImpression(id){
+     console.log('Impression aotter id : ' + id);
     }
   },
 
