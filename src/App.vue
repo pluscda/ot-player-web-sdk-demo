@@ -23,7 +23,7 @@ export default {
          //document.querySelector("#" + id).style.transform="scale(1)";
     },
     cbAdFailed(id) {
-         console.log('loaded fail aotter id : ' + id);
+         console.log('Load Fail aotter id : ' + id);
          // document.querySelector("#" + id).style.display = "none";
     },
     cbAdImpression(id){
