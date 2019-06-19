@@ -5,6 +5,14 @@
 npm install
 ```
 
+## Build Aotter Player SDK lib and Run NodeJS server 
+# refer: https://github.com/pluscda/test
+```
+npm run buildProd && npm start
+```
+
+
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -15,15 +23,8 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+### Run your test
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
